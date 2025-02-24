@@ -44,7 +44,9 @@ a {
 }
 
 li {
-  list-style: none;
+  list-style-type: disc; // Adds bullet points
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 input:focus,
