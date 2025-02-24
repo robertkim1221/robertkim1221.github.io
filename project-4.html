@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Vision-Language Task Planning for Furniture Assembly Robots (2025)</title>
+    <title>Automated Vertical Farm And Control System (2023)</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -84,15 +84,15 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Vision-Language Task Planning for Furniture Assembly Robots (2025)</h1>
+        <h1 class="heading-primary">Automated Vertical Farm And Control System (2023)</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Developing a vision-language task planning system that enables robots to understand and execute furniture assembly using multimodal learning. By integrating video foundation models and large language models, the system extracts structured knowledge from human demonstrations to generate action plans for robotic execution.
+            Steering the proof of concept for urban vertical farms in Seoul, I led the design and implementation of a cost-effective, IoT-enabled farming system. This project aimed to demonstrate the feasibility of automated vertical farming in dense urban environments.
           </p>
         </div>
-        <div class="project-cs-hero__cta">
+        <!-- <div class="project-cs-hero__cta">
           <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="project-details">
@@ -100,7 +100,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/png/furnassem_diagram.png"
+              src="./assets/jpeg/vf_project.jpeg"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -109,34 +109,56 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Humans intuitively understand how to manipulate objects and perform tasks, but translating this intuition into adaptable, zero-shot robotic execution remains a challenge. This project explores how <strong>vision-language models</strong> and <strong>multimodal retrieval-augmented generation (RAG)</strong> can be leveraged to build <strong>structured knowledge representations</strong> for robotic task planning.
+                The project involved developing an automated farm controller using ESP32 and Arduino, implementing nutrient dosing and climate control with PID regulation, and deploying a cloud-based monitoring system using AWS IoT and MQTT for remote farm management.
               </p>
               <p class="project-details__desc-para">
-                Focusing on <strong>IKEA furniture assembly</strong>, I am developing a <strong>multi-layered pipeline</strong> that decomposes high-level task understanding into <strong>robot-executable actions</strong>:
+                A key achievement of this project was transforming a 700-square-foot basement in Seongsu-dong into a high-yield urban farm. Despite challenging conditions, the system successfully produced 1,200 fresh greens in just one month.
               </p>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/jpeg/vf_img1.jpeg"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
               <p class="project-details__desc-para">
-                <strong>1. Multimodal RAG</strong> processes IKEA manuals to form a high-dimensional knowledge graph of assembly steps.
-                <strong>2. Video foundation models (VLMs)</strong> extract mid-level actions from human demonstrations.
-                <strong>3. Robot-grounded action primitives</strong> are inferred to generate structured, event-driven execution plans.
+              This project was a low-cost solution designed to address urban food production challenges by leveraging automation, microcontroller-based sensing, and real-time cloud monitoring. It served as a proof of concept for sustainable urban agriculture using affordable, scalable technology.
               </p>
-              <p class="project-details__desc-para">
-                By structuring <strong>a deep knowledge representation of furniture assembly</strong>, this approach aims to bridge <strong>high-level task reasoning</strong> with <strong>low-level robotic execution</strong>, enabling <strong>more adaptive and semantically aware robot decision-making</strong>.
-              </p>
-              <p class="project-details__desc-para">
-                This system is built using <strong>state-of-the-art AI models</strong> to bridge <strong>high-level task reasoning with robot execution</strong>. A <strong>multimodal RAG pipeline</strong> powered by <strong>ColiPaLi vision retrieval</strong> extracts relevant assembly steps from IKEA manuals, forming a structured knowledge representation. <strong>InternVideo2</strong>, a video foundation model, is used to decompose human demonstrations into mid-level actions, while <strong>GPT-0.1</strong> performs <strong>chain-of-thought reasoning</strong> to parameterize and ground action primitives into <strong>robot-executable commands</strong>. Together, these components create a <strong>context-aware decision-making system</strong>, enabling robots to infer and execute tasks with improved adaptability.
-              </p>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/jpeg/vf_img3.jpg"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
+                <div class="skills__skill">Microcontrollers (ESP32, Arduino)</div>
+                <div class="skills__skill">AWS S3</div>
+                <div class="skills__skill">MQTT</div>
+                <div class="skills__skill">PID Control</div>
+                <div class="skills__skill">Embedded Systems</div>
                 <div class="skills__skill">Python</div>
-                <div class="skills__skill">AWS EC2</div>
-                <div class="skills__skill">Git</div>
-                <div class="skills__skill">Linux</div>
-                <div class="skills__skill">Neo4j</div>
-                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">C</div>
               </div>
             </div>
+            <!-- <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="#"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div> -->
           </div>
         </div>
       </div>
@@ -187,9 +209,10 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Robert Kim</h4>
+            <h4 class="heading heading-sm text-lt">John Doe</h4>
             <p class="main-footer__short-desc">
-                Robotics engineer with experience in motion planning, perception, and hardware design. Passionate about building intelligent robotic systems that bridge the gap between software and the real world.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+              tempora explicabo quae quod deserunt
             </p>
           </div>
         </div>
