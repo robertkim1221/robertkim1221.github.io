@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Operating Room Logistics Robot (2024)</title>
+    <title>PLC-Integrated ROS Simulation for Smart Factory Robotics (2020)</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -84,14 +84,11 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Operating Room Logistics Robot (2024)</h1>
+        <h1 class="heading-primary">PLC-Integrated ROS Simulation for Smart Factory Robotics (2020)</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Hospitals rely on efficient logistics to maintain sterile, organized operating rooms, but manual restocking and retrieval of medical supplies place a heavy burden on staff. The Operating Room Bot (ORB) system is designed to automate these tasks using a robotic mobile manipulator built on the Fetch robot platform. ORB leverages autonomous navigation, perception-driven manipulation, and task-specific planning to deliver supplies during surgeries and restock shelves with minimal human intervention.
+            This work was part of the project “Development of Integrated Control Technology supporting both control of 4 robots and PLCopen standard-based PLC language (5 types) for SME’s smart factory”, funded by South Korea’s Ministry of Trade, Industry, and Energy (MOTIE). The project aimed to create a standardized and efficient control system for industrial automation, enabling SMEs to integrate robots with existing PLC-based infrastructure seamlessly.
           </p>
-        </div>
-        <div class="project-cs-hero__cta">
-          <a href="https://mrsdprojects.ri.cmu.edu/2024teami" class="btn btn--bg" target="_blank">Project Link</a>
         </div>
       </div>
     </section>
@@ -100,7 +97,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/png/orb_project.png"
+              src="./assets/png/smartfactory_proj.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -109,48 +106,25 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                The Operating Room Bot (ORB) is a robotic mobile manipulator designed to automate hospital logistics, particularly in operating rooms. By autonomously retrieving and delivering medical supplies and restocking shelves, ORB enhances operational efficiency and allows hospital staff to focus on patient care. Built on the Fetch robot platform, the system integrates motion planning, perception, and high-level task execution to navigate and manipulate objects safely in dynamic hospital environments.
+                The core objective of this project was to bridge the gap between traditional PLC-based industrial automation and modern robotic simulation environments. Many SMEs rely on PLC controllers for automation but lack cost-effective methods for testing and validating robotic workflows before physical deployment. To address this, I developed an integration pipeline between PLC-controlled systems and Gazebo, an open-source robotics simulator, allowing real-time validation of industrial automation processes in a virtual environment. This system enabled manufacturers to test PLC logic with simulated robots, reducing downtime and minimizing the risk of errors in actual production lines.              </p>
+              <p class="project-details__desc-para">
+                My primary role in the project involved developing a middleware layer that allowed PLCs to communicate with simulated robots in Gazebo. By leveraging ROS (Robot Operating System) and an industrial communication protocol, I enabled bidirectional data exchange between the PLC and the robotic simulation, ensuring that sensor data, actuator commands, and task execution sequences were accurately mirrored in both environments. This integration allowed engineers to simulate multi-robot coordination, test task allocation strategies, and validate automation logic without the need for expensive physical prototypes.              
               </p>
               <p class="project-details__desc-para">
-                ORB is developed using a ROS2-based software stack, enabling seamless integration with hospital workflows. It features advanced <strong>autonomous navigation, perception-based object manipulation, and real-time decision-making</strong> to ensure reliability in high-stakes medical environments. Through intelligent automation, ORB reduces human workload, minimizes disruptions in sterile spaces, and optimizes hospital resource management.
+                Additionally, I worked on synchronizing robot motion with PLC instructions, ensuring that the Gazebo simulation adhered to real-world constraints such as motion timing, collision avoidance, and multi-robot cooperation. To enhance the system’s usability, I implemented a visualization tool that displayed PLC execution states alongside robot movements, helping engineers debug and optimize their automation programs effectively. This work ultimately streamlined the deployment of robotic automation in smart factories, enabling SMEs to transition more smoothly into Industry 4.0 with lower costs and reduced implementation risks.              
               </p>
-              <p class="project-details__desc-para">
-                More detailed information, including media and project insights, can be found on 
-                <a href="https://mrsdprojects.ri.cmu.edu/2024teami" target="_blank">this website</a>.
-              </p>
-            </div>
+              <a href="assets/pdf/etfa2020.pdf" class="btn btn--med btn--theme" target="_blank">Read the Paper</a>
+              </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
+                <div class="skills__skill">ROS</div>
+                <div class="skills__skill">Gazebo</div>
+                <div class="skills__skill">PLC</div>
+                <div class="skills__skill">Task Allocation</div>
                 <div class="skills__skill">Python</div>
-                <div class="skills__skill">ROS2</div>
-                <div class="skills__skill">Isaac Sim</div>
-                <div class="skills__skill">CuRobo</div>
-                <div class="skills__skill">MQTT</div>
-                <div class="skills__skill">YOLOv9</div>
-                <div class="skills__skill">SAM</div>
-                <div class="skills__skill">nvBlox</div>
-                <div class="skills__skill">ArUco</div>
-                <div class="skills__skill">Docker</div>
-                <div class="skills__skill">Pytorch</div>
-                <div class="skills__skill">Git</div>
-                <div class="skills__skill">Linux</div>
+                <div class="skills__skill">C++</div>
               </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="https://mrsdprojects.ri.cmu.edu/2024teami/"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Project Link</a
-              >
-              <a
-                href="https://github.com/Team-I-ORL"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
             </div>
           </div>
         </div>
@@ -202,10 +176,9 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Robert Kim</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+                Robotics engineer with experience in motion planning, perception, and hardware design. Passionate about building intelligent robotic systems that bridge the gap between software and the real world.
             </p>
           </div>
         </div>
