@@ -512,7 +512,7 @@ textarea {
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: #c2c2c2;
     transition: color .3s; }
     .header__logo-container:hover {
       color: #adadad; }
@@ -548,7 +548,7 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #d7d7d7;
+    color: #333;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
