@@ -2,8 +2,8 @@
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
+      rgba($themeClrPrimary, 0.9),
+      rgba($themeClrPrimary, 0.9)
     ),
     url(../../assets/svg/common-bg.svg);
   background-size: cover;
@@ -40,6 +40,8 @@
 }
 
 .project-details {
+  background: rgb(22, 27, 34);
+  color: rgb(217, 216, 216);
   &__content {
     padding: 8rem 0;
     max-width: 90rem;
@@ -74,7 +76,7 @@
     &-para {
       font-size: 1.8rem;
       line-height: 1.7;
-      color: grey;
+      color: rgb(209, 209, 209);
       margin-bottom: 2rem;
     }
   }

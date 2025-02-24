@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 1000;
   background: #c9c9ca;
-  background: #3c4b5f;
+  background: #12171d;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 
   &__content {
@@ -33,7 +33,7 @@
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: $themeClrPrimary;
+    background: #848383;
 
     @include respond(tab-port) {
       width: 4.5rem;
@@ -64,7 +64,7 @@
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #c2c2c2;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
