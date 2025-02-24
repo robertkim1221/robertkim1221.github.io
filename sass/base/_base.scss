@@ -48,7 +48,15 @@ li {
   margin-left: 20px;
   padding-left: 20px;
 }
+.project-details__desc-list {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+}
 
+.project-details__desc-list li {
+  list-style-type: disc !important;
+  display: list-item !important;
+}
 input:focus,
 button:focus,
 a:focus,
